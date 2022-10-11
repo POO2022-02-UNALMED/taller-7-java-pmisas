@@ -12,7 +12,7 @@ public class Fabula extends Escrito {
     private String enseñanza;
     private String interpretacion;
     
-    public Fabula(String origen, String titulo, String autor, int paginas,String enseñanza, String intrpretacion){
+    public Fabula(String origen, String titulo, String autor, int paginas,String enseñanza, String interpretacion){
         super(origen, titulo, autor, paginas);
         enseñanza = this.enseñanza;
         interpretacion = this.interpretacion;
