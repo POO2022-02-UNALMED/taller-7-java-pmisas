@@ -15,9 +15,9 @@ public class Periodico extends Escrito{
     
     public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, String interpretacion){
         super(origen, titulo, autor, paginas);
-        fecha=this.fecha;
-        primicia=this.primicia;
-        interpretacion=this.interpretacion;
+        this.fecha=fecha;
+        this.primicia=primicia;
+        this.interpretacion=interpretacion;
     }
     
     @Override

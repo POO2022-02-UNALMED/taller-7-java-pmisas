@@ -17,10 +17,10 @@ public class Libro extends Escrito{
     
     public Libro(String origen, String titulo, String autor, int paginas, String co_autor, String editorial, String edicion, String interpretacion){
         super(origen,titulo,autor, paginas);
-        co_autor = this.co_autor;
-        editorial = this.editorial;
-        edicion = this.edicion;
-        interpretacion = this.interpretacion;
+        this.co_autor = co_autor;
+        this.editorial = editorial;
+        this.edicion = edicion;
+        this.interpretacion = interpretacion;
         
     }
     
