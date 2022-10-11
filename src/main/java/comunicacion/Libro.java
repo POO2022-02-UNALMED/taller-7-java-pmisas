@@ -36,7 +36,13 @@ public class Libro extends Escrito{
     
     @Override
     public String toString(){
-        return super.getOrigen() + "/n" + super.getTitulo() + "/n" + super.getAutor() + "/n" + super.getPaginas() + "/n" + getCo_autor() + "/n" + getEditorial() +"/n" + getEdicion();
+        return super.getOrigen()
+                        + "\n" + super.getTitulo()
+			+ "\n" + super.getAutor()
+			+ "\n" + super.getPaginas()
+			+ "\n" + co_autor
+			+ "\n" + editorial
+			+ "\n" + edicion;
     }
     
     public String getCo_autor() {
